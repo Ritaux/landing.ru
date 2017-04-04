@@ -1,0 +1,27 @@
+.list_image {
+    float: left;
+    margin-right: 20px;
+    width: 355px;
+    height: 465px;
+    display: inline-block;
+
+}
+.list_image_img {
+    position: relative;
+    top: -37px;*/
+   
+}
+.list_enumeration {
+ display: inline-block;
+ height: 465px;
+ text-align: left;
+  float: right;
+}
+.list_enumeration_p__enumeration {
+    font-size: 2em;
+    margin-top: 25px;
+    color: black;
+}
+.list_enumeration_ul__enumeration {
+    list-style-image: url('../images/array.png');
+}

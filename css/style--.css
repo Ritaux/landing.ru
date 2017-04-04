@@ -1,0 +1,230 @@
+.page {
+    width: 100%;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: Oswald, Tahoma;
+    font-size: 14px;
+}
+
+.page__header {
+    height: 530px;
+    background-image: url('../images/header-background.jpg');
+}
+
+.header__logo {
+    float: left;
+}
+
+.header__logo_img {
+    padding: 20px;
+}
+
+.header__links {
+    float: right;
+    padding: 20px;
+}
+
+.links_phone {
+    margin-bottom: 20px;
+}
+
+.phone {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.submit {
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+
+}
+
+.links__feedback_button {
+    font-weight: 700;
+    color: white;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+    display: block;
+}
+.header-catalog {
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+
+}
+.header-line {
+    min-height: 2px;
+    background-repeat: repeat-x;
+    background-image: url('../images/header-line.png');
+}
+
+.about_p {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.delivery_p {
+    font-size: 1.5em;
+    text-align: center;
+    color: #b197c1;
+}
+.catalog-images {
+    width: 730px;
+    margin: 0 auto;
+}
+.catalog-images__all {
+    width: 230px;
+    height: 230px;
+    margin-right: 20px;
+    float: left;
+}
+
+.catalog-images__img3 {
+    float: right;
+    margin-right: 0;
+}
+.page-main__look {
+    height: 200px;
+    padding: 35px 0;
+}
+.look_p {
+    font-size: 2em;
+    margin-top: 25px;
+    text-align: center;
+    color: black;
+}
+.look_collection {
+    font-size: 1em;
+    text-align: center;
+    color: #9b728a;
+}
+.page-main__request_top {
+    height: 150px;
+    background-color: #d5e4e6;
+    background-image: url('../images/page-main__request.png');
+    background-position: 50% 0%;
+    background-repeat: repeat-x;
+    width: 100%;
+    padding-top: 70px;
+}
+.page-main__request_bottom {
+    height: 150px;
+    background-color: #d5e4e6;
+    background-image: url('../images/page-main__request_bottom.png');
+    background-position: 50% 100%;
+    background-repeat: repeat-x;
+    width: 100%;
+}
+.form-order {
+    margin: 0 auto;
+    width: 20%;
+}
+.form-field {
+    width: 99%;
+    height: 41px;
+    background: none;
+    margin-bottom: 25px;
+    border: 1px solid #DDA0DD;
+    border-radius: 20px;
+    text-align: center;
+    color: #DDA0DD;
+    font-size: 1.5em;
+    outline:none;
+}
+.form-field:focus {
+    border: 1px solid #30ad64;
+}
+.form-order__button {
+    width: 99%;
+    font-weight: 700;
+    color: white;
+    background: rgb(64, 199, 129);
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.form-order__button:hover {
+    background: #d68c18;
+}
+.page-main__list {
+    height: 424px;
+    background-color: #f3f1f3;
+    background-position: 0% 100%;
+    background-repeat: repeat-x;
+    background-image: url('../images/10_12.png');
+
+}
+.list_content{
+    width: 50%;
+    margin: 0 auto;
+}
+.list_image {
+    float: left;
+    margin-right: 20px;
+    width: 355px;
+    height: 465px;
+    display: inline-block;
+
+}
+.list_image_img {
+    position: relative;
+    top: -37px;*/
+   
+}
+.list_enumeration {
+   display: inline-block;
+   height: 465px;
+   text-align: left;
+   float: left;
+}
+.list_enumeration__p_enumeration {
+    font-size: 2em;
+   
+    color: black;
+    text-align: left;
+    vertical-align: baseline;
+    line-height: 1.5em;
+}
+
+.list_enumeration__ul_enumeration {
+    list-style-image: url('../images/array.png');
+     color: #9b728a;
+}
+.list_enumeration__li {
+    margin-top: 1.5em;
+}
+
+.page-main__look_span {
+   font-size: 4em; 
+}
+.look-collection {
+    width: 17%;
+    margin: 0 auto;
+}
+.look-collection__p {
+    font-size: 1em;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-align: right;
+    color: #9b728a;
+    display: inline-block;
+}
+.look_collection__sale {
+    font-size: 4em;
+    margin-top: 15px;
+    text-align: left;
+    color: #9b728a;
+    display: inline-block;
+}
+
+
+.page__footer {
+    height: 36px;
+}
+.footer__logo {
+    float: left;
+}

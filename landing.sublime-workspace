@@ -1,0 +1,399 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bordr",
+				"border-radius"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"po",
+				"post_data"
+			],
+			[
+				"edi",
+				"edit_mail"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ses",
+				"session_start"
+			],
+			[
+				"col",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 298.0
+	},
+	"console":
+	{
+		"height": 192.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/OpenServer/domains/landing.ru/css"
+	],
+	"file_history":
+	[
+		"/D/OpenServer/domains/landing.ru/index.html",
+		"/D/OpenServer/domains/landing.ru/for-all.html",
+		"/D/OpenServer/domains/landing.ru/all.css",
+		"/D/OpenServer/domains/landing.ru/css/style--.css",
+		"/D/OpenServer/domains/landing.ru/css/style.css",
+		"/D/Portable/Sublime Text Build 3126 x64/Data/Packages/User/bh_core.sublime-settings",
+		"/D/OpenServer/domains/landing.ru/index--.html",
+		"/D/OpenServer/domains/landing.ru/my.css",
+		"/D/OpenServer/domains/landing.ru/my.min.css",
+		"/D/Portable/Sublime Text Build 3126 x64/Data/Packages/CSScomb/Default.sublime-keymap",
+		"/D/OpenServer/domains/landing.ru/css/style.min.css",
+		"/D/Portable/Sublime Text Build 3126 x64/Data/Packages/CSScomb/README.md",
+		"/D/Portable/Sublime Text Build 3126 x64/Data/Packages/CSScomb/CSScomb.sublime-settings",
+		"/D/OpenServer/domains/yaposhka64.ru/assets/snippets/ishop/ishop.snippet.php",
+		"/D/OpenServer/domains/yaposhka64.ru/test.php",
+		"/D/OpenServer/domains/yaposhka64.ru/curl.php",
+		"/D/OpenServer/domains/test.ru/index.php",
+		"/D/OpenServer/domains/test.ru/test.php",
+		"/D/OpenServer/domains/jQuer.y/index.html",
+		"/D/OpenServer/domains/montecorvino.ru/views/reviews_template.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/reviews.php",
+		"/D/OpenServer/domains/jQuer.y/index2.html",
+		"/D/OpenServer/domains/montecorvino.ru/views/footer-js.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/footer-js_до_jQueryUI.php",
+		"/D/OpenServer/domains/montecorvino.ru/controllers/add_reviews_controller.php",
+		"/D/OpenServer/domains/montecorvino.ru/models/add_reviews_model.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/views/login.php",
+		"/D/OpenServer/domains/montecorvino.ru/controllers/reviews_controller.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/controllers/login_controller.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/footer.php",
+		"/D/OpenServer/domains/montecorvino.ru/controllers/main_controller.php",
+		"/D/OpenServer/domains/montecorvino.ru/index.php",
+		"/D/OpenServer/domains/montecorvino.ru/index2.html",
+		"/D/OpenServer/domains/montecorvino.ru/views/news.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/css/style.css",
+		"/D/OpenServer/domains/montecorvino.ru/models/main_model.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/models/main_model.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/controllers/main_controller.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/index.php",
+		"/D/OpenServer/domains/montecorvino.ru/config.php",
+		"/D/OpenServer/domains/montecorvino.ru/controllers/logout_controller.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/header.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/models/login_model.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/views/admin.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/views/footer.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/views/css/style.css",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 22/Исходники/models/login_model.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 19/Исходники/models/main_model.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 37/Исходники/models/main_model.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 36/Урок 36/Исходники/models/login_model.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 44/Исходники/catalog.loc/controllers/login_controller.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 31/Урок 31/Исходники/config.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 31/Урок 31/Исходники/index.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 22/Исходники/controllers/login_controller.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 22/Исходники/views/sidebar.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 54/Урок 54/Исходники/admin/models/login_model.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 27/Урок 27/Исходники/controllers/reg_controller.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 27/Урок 27/Исходники/views/reg.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 31/Урок 31/Исходники/views/reg.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 55/Исходники/views/apple/reg.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 55/Исходники/admin/views/css/style.css",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 55/Исходники/admin/views/login.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 24/Урок 24/Исходники/views/product.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 53/Урок 53/Исходники/admin/views/login.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/views/header.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 24/Урок 24/Исходники/views/style.css",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 30/Урок 30/Исходники/views/product.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 55/Исходники/admin/views/header.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 54/Урок 54/Исходники/admin/views/login.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 54/Урок 54/Исходники/admin/index.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 54/Урок 54/Исходники/config.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/models/admin_model.php",
+		"/D/OpenServer/domains/montecorvino.ru/admin/controllers/admin_controller.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 54/Урок 54/Исходники/admin/controllers/login_controller.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/404.php",
+		"/D/Учеба WEB/@Создание каталога товаров/Урок 52/Исходники/admin/index.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/js/count.js",
+		"/D/OpenServer/domains/montecorvino.ru/views/js/unslider-min.js",
+		"/D/OpenServer/domains/montecorvino.ru/views/css/jquery-ui.structure.css",
+		"/D/OpenServer/domains/montecorvino.ru/views/css/jquery-ui.css",
+		"/D/OpenServer/domains/montecorvino.ru/views/css/unslider.css",
+		"/D/OpenServer/domains/montecorvino.ru/views/home.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/header-js.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/about.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/services_template.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/services.php",
+		"/D/OpenServer/domains/montecorvino.ru/views/menu.php",
+		"/D/YandexDisk/Websites/Rusishka/error404/error404/style.css",
+		"/D/YandexDisk/Websites/Rusishka/error404/error404/404.html",
+		"/D/OpenServer/domains/montecorvino.ru/views/js/share42.js",
+		"/C/Users/ritau/Desktop/testSublime/index.html",
+		"/C/Users/ritau/Desktop/testSublime/style.css",
+		"/C/Users/ritau/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/ritau/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/ritau/Desktop/testSublime/style.sass",
+		"/C/Users/ritau/AppData/Roaming/Sublime Text 3/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
+		"/C/Users/ritau/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/ritau/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"вечернике",
+			"'",
+			"fields",
+			"\"",
+			"form",
+			"dialog",
+			"check",
+			"open-form",
+			"color",
+			"jquery",
+			"images/",
+			"images",
+			"PATH",
+			"31",
+			"1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"вечеринке",
+			"\"",
+			"_POST",
+			"'",
+			"form2",
+			"editing",
+			"../images/",
+			"../images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.575625363583,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "landing.sublime-project",
+	"replace":
+	{
+		"height": 98.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"views\\footer.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
