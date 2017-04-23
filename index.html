@@ -37,6 +37,7 @@
 					</div>
 					<a  class="open-form submit links__feedback_button">Заказать звонок</a>
 					<div id="loader"><span></span></div>
+				
 					<div id="errors"></div>
 
 				</div>
@@ -128,17 +129,13 @@
 					</div>
 				</div>
 								
- <div id="wrapper">
-            <div id="data-container">
-
-            </div>
-
-            <div id="loading-div">            </div>
-        </div>
-<div class="collection__look_order">
-					<a id="button-more" onclick="lazyload.load()" class="submit look_order_button ">Загрузить еще</a>
+				<div id="wrapper">
+					<div id="data-container"></div>
+					<div id="loading-div"></div>
 				</div>
-
+				<div class="collection__look_order">
+					<a id="button-more" onclick="lazyload.load()" class="submit look_order_button katalog_button">Загрузить еще</a>
+				</div>
   			</section>
 
   			      
@@ -205,7 +202,7 @@
 			</div>
 			<div class="header__links">
 				<div class="links_feedback">
-					<a href="#" class="open-form submit links__feedback_button">Позвоните мне!</a>
+					<a class="open-form submit links__feedback_button">Позвоните мне!</a>
 				</div>
 			</div>
 		</footer>
@@ -339,6 +336,7 @@
 		<script>
 			$(document).ready(function(){
 
+
 				$('#errors').dialog({
 					autoOpen: false,
 					width: 450,
@@ -355,8 +353,9 @@
 					title: 'Введите ваши данные',
 					resizable: false,
 					draggable: false,
-					show: {effect: 'slide', duration: 700},
-					hide: {effect: 'explode', duration: 700},
+					position: { my: "center", at: "top", of: window },
+					show: {effect: "blind", duration: 500},
+					hide: {effect: 'blind', duration: 500},
 					buttons: {
 						"Ждать звонок!": function(){
 							var commentAuthor = $.trim($('#comment-author').val());
@@ -366,6 +365,7 @@
 								alert('Все поля обязательны к заполнению');
 								return;
 							}
+							$('#bg_layer').show();
 							$('#comment-text').val('');
 							$(this).dialog('close');
 							$.ajax({

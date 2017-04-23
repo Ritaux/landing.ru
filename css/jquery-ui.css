@@ -825,10 +825,15 @@ a.ui-button:active,
 }
 
 /* Overlays */
-.ui-widget-overlay {
+/*.ui-widget-overlay {
 	background: #aaaaaa url("../images/ui-bg_glow-ball_0_aaaaaa_600x600.png") 50% 35% repeat-x;
 	opacity: 0;
-	filter: Alpha(Opacity=0); /* support: IE8 */
+	filter: Alpha(Opacity=0); 
+}*/
+.ui-widget-overlay {
+  opacity: 0.3;
+  filter: Alpha(Opacity=30);
+  background-color: black;
 }
 .ui-widget-shadow {
 	-webkit-box-shadow: 0px 0px 5px #666666;
